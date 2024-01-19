@@ -47,7 +47,7 @@ function AddNote(props:any){
             <Button title="Edit" onPress={editView} />
             <Modal isVisible={isModalVisible} 
           animationIn="bounceInUp" coverScreen={true}
-          style={{justifyContent: 'flex-end'}}
+          style={{justifyContent: 'flex-end', margin: 0}}
            >
               <View style={{ 
                 width: "100%",

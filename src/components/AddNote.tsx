@@ -40,7 +40,7 @@ function AddNote(){
             <Button title="New Note" onPress={toggleModal} />
             <Modal isVisible={isModalVisible} 
           animationIn="bounceInUp" coverScreen={true}
-          style={{justifyContent: 'flex-end'}}
+          style={{justifyContent: 'flex-end', margin: 0}}
            >
               <View style={{ 
                 width: "100%",
